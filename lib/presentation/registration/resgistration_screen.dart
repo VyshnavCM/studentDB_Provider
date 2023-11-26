@@ -35,7 +35,7 @@ class RegistrationScreen extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 8.0),
             child: Column(
               children: [
-                kHeight30,
+                kHeight20,
                 Section1(size: size),
                 Section2(size: size),
                 kHeight30,

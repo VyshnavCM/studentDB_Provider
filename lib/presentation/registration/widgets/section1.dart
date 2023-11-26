@@ -21,7 +21,7 @@ class Section1 extends StatelessWidget {
           radius: 65,
           child: CircleAvatar(
             radius: 60,
-            backgroundImage: AssetImage('assets/avatar.jpg') ,
+            backgroundImage: AssetImage('assets/avatar.jpg'),
           ),
         ),
         kWidth20,
@@ -30,18 +30,24 @@ class Section1 extends StatelessWidget {
           child: Column(
             children: [
               TextFormField(
+                cursorColor: kMainTextColor,
                 decoration: const InputDecoration(
                     hintText: 'Enter name',
                     hintStyle: TextStyle(color: kGreyColor),
+                    focusedBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(color: kMainTextColor)),
                     border: UnderlineInputBorder(
-                        borderSide: BorderSide(
-                            color: kMainTextColor, width: 2))),
+                        borderSide:
+                            BorderSide(color: kMainTextColor, width: 2))),
               ),
               kHeight10,
               TextFormField(
+                cursorColor: kMainTextColor,
                 decoration: const InputDecoration(
                     hintText: 'Enter age',
                     hintStyle: TextStyle(color: kGreyColor),
+                    focusedBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(color: kMainTextColor)),
                     border: UnderlineInputBorder(
                         borderSide: BorderSide(color: kMainTextColor))),
               ),
