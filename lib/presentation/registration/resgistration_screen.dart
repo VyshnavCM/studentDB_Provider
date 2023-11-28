@@ -9,17 +9,16 @@ import 'widgets/illustration.dart';
 import 'widgets/section1.dart';
 import 'widgets/section2.dart';
 
+final nameController = TextEditingController();
+final ageController = TextEditingController();
+final mobileNumberController = TextEditingController();
+final emailIdController = TextEditingController();
+
 class RegistrationScreen extends StatelessWidget {
   const RegistrationScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final nameController = TextEditingController();
-    final ageController = TextEditingController();
-    final mobileNumberController = TextEditingController();
-    final emailIdController = TextEditingController();
-    final parentsNameController = TextEditingController();
-
     final Size size = MediaQuery.of(context).size;
 
     return ListView(

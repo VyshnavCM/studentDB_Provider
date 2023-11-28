@@ -12,10 +12,10 @@ class MainPageScreen extends StatelessWidget {
     const StudentListScreen(),
   ];
 
-  final _title = [
-    'Register Student',
-    'Student List',
+  final _title = [    'Register Student',
+    'Students List',
   ];
+  
 
   @override
   Widget build(BuildContext context) {
