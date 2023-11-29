@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:student_database_using_provider/presentation/registration/resgistration_screen.dart';
-
 import '../../../core/color/colors.dart';
 import '../../../core/constants/constants.dart';
 final formkeys = GlobalKey<FormState>();
