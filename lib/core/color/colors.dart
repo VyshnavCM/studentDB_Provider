@@ -11,3 +11,4 @@ const Color kMainBackgroundColor = Color.fromRGBO(249, 221, 191, 1);
 const Color kButtonColor = Color.fromARGB(255, 202, 120, 48);
 const Color kNavColor = Color.fromARGB(255, 55, 18, 5);
 const kAppBarColor =  Color.fromARGB(255, 116, 60, 23) ;
+const kcardColor =  Color.fromARGB(224, 239, 163, 115) ;

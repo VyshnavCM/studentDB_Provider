@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:student_database_using_provider/presentation/mian_page/main_page.dart';
+import 'package:student_database_using_provider/presentation/student_details/student_details.dart';
 
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  const BottomNav(),
+      home:  const StudentDetailsScreen() ,
     );
   }
 }

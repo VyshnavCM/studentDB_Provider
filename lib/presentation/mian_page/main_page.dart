@@ -42,6 +42,7 @@ class _BottomNavState extends State<BottomNav> {
   }
   SalomonBottomBar bottomNaigation() {
     return SalomonBottomBar(
+      itemPadding: const EdgeInsets.symmetric(vertical: 10, horizontal: 25),
       backgroundColor:kNavColor ,
         currentIndex: _currentIndex,
         onTap: (int _index) {

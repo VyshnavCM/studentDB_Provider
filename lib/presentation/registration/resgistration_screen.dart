@@ -14,6 +14,7 @@ final ageController = TextEditingController();
 final mobileNumberController = TextEditingController();
 final emailIdController = TextEditingController();
 
+
 class RegistrationScreen extends StatelessWidget {
   const RegistrationScreen({super.key});
 
